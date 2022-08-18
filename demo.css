@@ -1,86 +1,87 @@
-
-:root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:#010103;
-    --border:1rem solid rgba(255,255,255.3)
-}
-
-*{
-    font-family: 'Roboto',sans-serif;
-    margin: 0;
+ul{
+    list-style-type:none ; 
     padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 2s linear;
+    margin: 0;
+    overflow: hidden;
+    background-color: bisque;
+ }
+
+ li{
+     float: left;
+ }
+
+ li a{
+     text-decoration: none;
+     font-size: 30px;
+     padding-left: 20px;
+ }
+
+.image1 img{
+ position: relative;
+ top: 10px;
 }
 
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
+.image2{
+ position: relative;
+ top: -260px;
+ left: 900px;
+ 
 }
 
-html::-webkit-scrollbar{
-    width: .8rem;
+.name1{
+ padding-left: 80px;
+ font-size: 25px;
+}
+
+.name2{
+ font-size: 25px;
+ padding-left: 60px;
 }
 
 
-html::-webkit-scrollbar{
-   background:transparent;
+.container-box{
+ border: 1px solid black;
+ width: 350px;
+ height: 450px;
+ display: inline-block;
+position: relative;
+left: 150px;
+margin: 10px;
 }
 
-html::-webkit-scrollbar-thumb{
-    background:transparent;
-    background: #fff;
-    border-radius: 5rem;
- }
+.para{
+ text-align: center;
+ line-height: 30px;
+ 
+}
 
- body{
-     background: var(--bg);
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     padding: 1.5rem 7%;
-     border-bottom: var(--border);
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 1000;
- }
+im{
+ width: 100px;
+ height: 100px;
+}
 
- .header .logo img{
-     height: 6rem;
- } 
 
- .header .navbar a{
-    margin: 0 1rem;
-    font-size: 1.6rem;
-    color: #fff;
- }
+.container img{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top:100px;
+    left: 100px;
+}
 
- .header .navbar a:hover{
-     color: var(--main-color);
-     border-bottom: .1rem solid var(--main-color);
-     padding-bottom: .5rem;
- }
+.name{
+    position: relative;
+    top: -130px;
+    left: 600px;
+}
 
- .header .icons div{
-     color: #fff;
-     cursor: pointer;
-     font-size: 2.5rem;
-     margin-left: 2rem;
- }
+.info{
+    /* border: 1px solid black; */
+    width: 500px;
+    margin-top: -150px;
+    margin-left:600px ;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
- .header .icons div:hover{
-        color: var(--main-color);
- }
-
- #menu-btn{
-     display: none;
- }
+}
